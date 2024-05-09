@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new1.css">
+    <title>Registration</title>
+    <link rel="icon" href="DonBoscoLogo.png">
+</head>
+<body>
+    <div id="back-index" style="background-image: url('background.png');">
+        <div class="shade">
+            <header>
+                <a href="https://donboscogoa.ac.in/" target="_blank" title="Don Bosco College,Panjim"><img class="DonBoscoLogo" 
+				src="https://lms.donboscogoa.ac.in/pluginfile.php/1/core_admin/logo/0x200/1645795091/DonBoscoCollegeAccountLogo.png"
+				alt="DonBoscoLogo"></a>
+                <div id="navbar">
+                    <nav>
+                        <a href="index.html" target="_self">Home</a>
+                        <a href="events.html" target="_self">Events</a>
+                        <div class="dropdown-content">
+                            <a href="events.html" target="_self">Pre-Events</a>
+                            <a href="events.html" target="_self">On-Stage Events</a>
+                            <a href="events.html" target="_self">Off-Stage Events</a>
+                            <a href="events.html" target="_self">Sports Events</a>
+                        </div>
+                        <a href="sponsors.html" target="_self">Sponsors</a>
+                        <a href="about.html" target="_self">About</a>
+                        <a href="contact.html">Contact</a>
+						<a href="team.html" target="self">Team</a>
+							<a href="pointsystem.html" target="self">Rules</a>
+                    </nav>
+                </div>
+                <button href="registrationpage.html" target="_self"><b>REGISTER</b></button>
+            </header>
+            <main>
+                <h1 class="reg-h1">Meteora Registration Form</h1>
+                <div id="container_reg">
+                    <fieldset>
+                        <legend class="topic"><b>Register Now!</b></legend>
+                        <form action="registered.html" target="_self">
+                            <fieldset>
+                                <legend>College Information</legend>
+                                <p>
+                                    <label for="Name">College Name:</label>
+                                    <input class="blank" type="text" name="Name" id="Name" placeholder="College Name" autocomplete="on" required>
+                                </p>
+                                <p>
+                                    <label for="phone">Contact Number:</label>
+                                    <input class="blank" type="tel" name="phone" id="phone" placeholder="College Contact Number" pattern="[0-9]{10}" title="telephone" required>
+                                </p>
+                                <p>
+                                    <label for="contactEmail">Email:</label>
+                                    <input class="blank" type="email" id="contactEmail" name="contactEmail" placeholder="abc123@gmail.com" required>
+                                </p>
+                                <p>
+                                    <label for="RegistrationNumber">Registration Number:</label>
+                                    <input class="blank" type="text" id="RegistrationNumber" name="RegistrationNumber" placeholder="106501" required>
+                                </p>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Team & Event Information</legend>
+                                <p>
+                                    <label for="teamName">Team Name:</label>
+                                    <input class="blank" type="text" id="teamName" name="teamName" placeholder="Team Meteora" required>
+                                </p>
+                                <p>
+                                    <label for="totalParticipants">Total Number of Participants:</label>
+                                    <input class="blank" min value="0" id="totalParticipants" name="totalParticipants" required>
+                                </p>
+                                <p>
+                                    <h3>Pre-Events</h3>
+                                    <label><input type="checkbox" name="Reel_Making" value="Reel_Making"> Chronicles Of Meteora</label><br>
+                                    <label><input type="checkbox" name="Magazine_Event" value="Magazine_Event"> Merry-Go Meg</label>
+                                </p>
+                                <p>
+                                    <h3>On-Stage Events</h3>
+                                    <label><input type="checkbox" name="Ice_Breaker" value="Ice_Breaker"> Mystique March</label><br>
+                                    <label><input type="checkbox" name="Dance_competition" value="Dance_competition"> Whirls & Twirls</label><br>
+                                    <label><input type="checkbox" name="Battle_of_Bands" value="Battle_of_Bands"> Funk It Up</label><br>
+                                    <label><input type="checkbox" name="event7" value="event7"> Live Up To The Beat</label><br>
+                                    <label><input type="checkbox" name="event9" value="event9"> Mr. & Miss Meteora</label><br>
+                                </p>
+                                <p>
+                                    <h3>Off-Stage Events</h3>
+                                    <label><input type="checkbox" name="event1" value="offStageEvent1"> Flag-Tastic Splash</label><br>
+                                    <label><input type="checkbox" name="event2" value="offStageEvent2"> Hunt It Down</label><br>
+                                    <label><input type="checkbox" name="event3" value="offStageEvent3"> The Walk Of Art</label><br>
+                                </p>
+                                <p>
+                                    <h3>Sports Events</h3>
+                                    <label><input type="checkbox" name="evt3" value="sportsEvents3"> Arm Wrestling</label><br>
+                                    <label><input type="checkbox" name="evt2" value="sportsEvents2"> Last Stop At Meteora</label>
+                                </p>
+                            </fieldset>
+                            <input class="submit" type="submit" value="Register Now!">
+                        </form>
+                    </fieldset>
+                </div>
+            </main>
+            <footer>
+                <div id="footer">
+                    <p>For More Updates Visit Us On:</p>
+                    <div id="icons">
+                <a href="https://www.facebook.com/DonBoscoCollegePanjim" target="_self"><img class="icons" src="facebook.png" alt=""></a>
+
+                <a href="https://www.instagram.com/meteora.dbc/" target="_self"><img class="icons" src="instagram.png" alt=""></a>
+
+                <a href="https://www.youtube.com/@DONBOSCOTV" target="_self"><img class="icons" src="youtube.png" alt=""></a>
+                </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
